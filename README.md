@@ -19,3 +19,21 @@ Open mongoDB Compass
 
 Run nodemon
 \$ nodemon index.js
+
+--- File Structure ---
+
+db.js
+
+- has postManagerDB from mongoDB compass connected by mongoose
+
+index.js
+
+- has postMessageRoutes thru postMessageController
+
+./models/postMessage.js
+
+- model for postMessage
+
+./controllers/postMessageController.js
+
+- creates a method for get,post,put and delete to implement the correct operations
